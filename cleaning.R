@@ -27,3 +27,7 @@ change_df$Company.Name = ifelse(
   change[change_df$Company.Name],
   change_df$Company.Name 
 )
+
+final_df = change_df
+
+write.csv(final_df, "cleaned.csv")

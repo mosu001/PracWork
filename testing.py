@@ -1,6 +1,3 @@
-import os
-os.environ["OPENAI_API_KEY"] = "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"
-
 from langchain.agents import create_csv_agent
 
 from langchain.llms import OpenAI

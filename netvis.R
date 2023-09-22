@@ -1,5 +1,5 @@
 setwd("C:/Users/mosu001/OneDrive - The University of Auckland/Documents/uoa/industry-engagement/PracWork")
-clean_df <- read.csv("~/uoa/industry-engagement/PracWork/cleaned.csv")
+clean_df <- read.csv("C:/Data/PracWork/cleaned.csv")
 
 levels(as.factor(clean_df$Discipline))
 
@@ -44,3 +44,17 @@ edges <- get.data.frame(g, what="edges")[1:2]
 netVis = visNetwork(snodes, edges) %>% visIgraphLayout(layout = "layout_with_fr") %>%
   visOptions(highlightNearest = TRUE, nodesIdSelection = TRUE)
 print(netVis)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
